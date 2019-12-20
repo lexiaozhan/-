@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+#获取随机数字
+import random
+a = random.randint("23,45")
+print(a)
+#有序的可迭代对象 （）里面可以放字符串，列表，元组
+c = random.choice
+print(c)
